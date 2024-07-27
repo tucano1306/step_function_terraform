@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2" # Cambia la región según sea necesario
+  region = "us-east-1" # Cambia la región según sea necesario
 }
 
 resource "aws_iam_role" "step_functions_role" {
